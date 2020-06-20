@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  font-weight: 300;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.1rem;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+}
+
+/* first picture */
+#finattask1,
+#Ttask1,
+/* #Ltask1, */
+#gammatask1,
+#alphatask1,
+#betatask1,
+#LB190task1,
+#C1V90task1,
+#CB1task1,
+#hCLtask1,
+#Vtask1,
+#VC1B1task1,
+#BB1A1task1,
+#dC1Atask1,
+#dAB1task1,
+#dCB1task1,
+#dA1Ctask1,
+#dC1btask1,
+#dBA1task1,
+#LCtask1,
+#B1Vtask1,
+#C1Vtask1,
+#LC1task1,
+#LB1task1,
+#B1C1task1,
+#CB1A1task1,
+#aBAA1task1,
+#aA1ACtask1,
+#ABB1task1,
+#B1BCtask1,
+#aBB1A1task1,
+#ACC1task1,
+#C1CBtask1,
+#dC1Btask1,
+#VB1C1task1,
+/*task2*/
+#A1B1C1D1task2, #Ktask2, #Htask2, #C1task2, #D1task2, #A1task2, #B1task2, #A1C1task2, #B1D1task2, #Ntask2, #K90task2, #A1Ktask2, #A1Htask2, #HKtask2, #DHtask2, #CHtask2, #CDtask2, #BCtask2, #ABtask2, #ADtask2, #finattask2 {
+  opacity: 0;
+}
+
+/*pic3*/
+#O9task3,
+#E1O9task3,
+#OO9task3,
+#AO9task3,
+#E1H2task3,
+#E1H3task3,
+#E1task3,
+#Htask3 {
+  opacity: 0;
+}
+
+/*pic4*/
+#Otr1,
+#HOtr1,
+#Htr1,
+#hBtr1,
+#hAtr1,
+#hCtr1,
+#C1tr1,
+#Otr2,
+#HOtr2,
+#hHtr2,
+#Htr2,
+#BHtr2,
+#AHtr2,
+#hCtr2,
+#tCtr2,
+#bCtr2,
+#tr1,
+#tr2 {
+  opacity: 0;
+}
+
+/*pic5*/
+#Hstask5,
+#Mtask5,
+#HHs,
+#eqHHstask5,
+#OOtask5,
+#H1H2task5,
+#H1H3task5,
+#Htask5,
+#eqHHstask5,
+#H1N1task5,
+#HH1task5 {
+  opacity: 0;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+.picture-display {
+  /* transform: scale(1.2); */
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.text {
+  width: 60%;
+  padding: 0 6rem 0 4rem;
+}
+
+.button {
+  display: inline-block;
+  margin-right: 5rem;
+  border-bottom: 2px solid transparent;
+  transition: 0.2s border-bottom;
+  cursor: pointer;
+}
+
+.button:hover {
+  border-bottom: 2px solid #000;
+}
+
+.button--active {
+  border-bottom: 2px solid #000;
+  cursor: default;
+}
+
+ul {
+  list-style: none;
+}
+
+.navigation {
+  /* margin: 0 auto; */
+  /* display: inline-block; */
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.button--next {
+  margin-top: 8rem;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}
